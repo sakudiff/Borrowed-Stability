@@ -1,0 +1,39 @@
+# LaTeX temporary files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.xdv
+*.bbl
+*.blg
+*.out
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+
+# Python temporary files
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# IDE/Editor files
+.vscode/
+
+# Ensure PDFs and images are NOT ignored
+!*.pdf
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!images/
